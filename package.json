@@ -1,0 +1,28 @@
+{
+  "name": "edge-ai-inference-platform",
+  "version": "1.0.0",
+  "description": "Edge Ai Inference Platform",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "infrastructure"
+  ],
+  "author": "Rahul Ladumor",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "aws-cdk": "^2.100.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.0.0"
+  }
+}
